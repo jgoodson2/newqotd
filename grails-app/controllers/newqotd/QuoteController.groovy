@@ -1,6 +1,7 @@
 package newqotd
 
 class QuoteController {
+    static defaultAction = "home"
 
     def index() { }
 
