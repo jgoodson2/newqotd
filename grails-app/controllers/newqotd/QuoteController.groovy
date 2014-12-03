@@ -6,6 +6,6 @@ class QuoteController {
     def index() { }
 
     def home(){
-        render "Jonathon Goodson does not know how to program."
+        render "<h1>Jonathon Goodson does not know how to program.</h1>"
     }
 }
