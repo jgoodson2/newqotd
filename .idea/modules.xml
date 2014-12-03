@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/newqotd.iml" filepath="$PROJECT_DIR$/newqotd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newqotd-grailsPlugins.iml" filepath="$PROJECT_DIR$/newqotd-grailsPlugins.iml" />
     </modules>
   </component>
 </project>
