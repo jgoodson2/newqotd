@@ -32,3 +32,4 @@ grails-app/conf/DataSource.groovy
 # Backup sql scripts from PL/SQL developer
 *.~sql
 
+*.db
