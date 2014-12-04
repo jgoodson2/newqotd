@@ -8,13 +8,12 @@ import spock.lang.Specification
  */
 @TestFor(QuoteService)
 class QuoteServiceSpec extends Specification {
+    void "static quote service always returns scrapple quote"() {
+        when:
+        Quote staticQuote = service.getStaticQuote()
 
-    def setup() {
-    }
-
-    def cleanup() {
-    }
-
-    void "test something"() {
+        then:
+        staticQuote.author == "Anonymous"
+        staticQuote.content == "Real man no eat Scrapple."
     }
 }
