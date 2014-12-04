@@ -2,6 +2,7 @@ package newqotd
 
 class QuoteController {
     static scaffold = true
+    def quoteService
     static defaultAction = "home"
 
     def home(){
@@ -16,16 +17,19 @@ class QuoteController {
 //                                    content: 'Float like a butterfly')
 //        [quote:staticQuote]
 
-        def allQuotes = Quote.list()
-        def randomQuote
-        if (allQuotes.size()>0){
-            def randomIndex = new Random().nextInt(allQuotes.size())
-            randomQuote = allQuotes[randomIndex]
-        }
-        else{
-            randomQuote = new Quote(author: "Anonymous",
-                                    content: "Hello World!")
-        }
+//        def allQuotes = Quote.list()
+//        def randomQuote
+//        if (allQuotes.size()>0){
+//            def randomIndex = new Random().nextInt(allQuotes.size())
+//            randomQuote = allQuotes[randomIndex]
+//        }
+//        else{
+//            randomQuote = new Quote(author: "Anonymous",
+//                                    content: "Hello World!")
+//        }
+//        [quote:randomQuote]
+
+        def randomQuote = quoteService.getRandomQuote()
         [quote:randomQuote]
     }
 }

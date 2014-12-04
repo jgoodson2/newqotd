@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfaf2b72-7bea-4792-aec2-730a1b31584a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/newqotd/Quote.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/newqotd/Quote.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/newqotd/QuoteController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/newqotd/QuoteController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.trace.db" afterPath="$PROJECT_DIR$/devDb.trace.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
     </list>
     <ignored path="newqotd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,22 +49,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="QuoteController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/newqotd/QuoteController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9565217" vertical-offset="0" max-vertical-offset="629">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-16.26923" vertical-offset="1141" max-vertical-offset="2176">
               <caret line="92" column="83" selection-start-line="92" selection-start-column="83" selection-end-line="92" selection-end-column="83" />
-              <folding />
+              <folding>
+                <marker date="1417703347338" expanded="true" signature="2347:2473" placeholder="..." />
+                <marker date="1417703347338" expanded="true" signature="3045:3229" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,12 +92,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quote.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuoteController.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/newqotd/QuoteController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.65700483" vertical-offset="0" max-vertical-offset="828">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quote.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/newqotd/Quote.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18478261" vertical-offset="0" max-vertical-offset="828">
+            <state vertical-scroll-proportion="-6.652174" vertical-offset="0" max-vertical-offset="306">
               <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuoteService.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/newqotd/QuoteService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="e#17#72#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,8 +136,9 @@
         <option value="$PROJECT_DIR$/web-app/css/snazzy.css" />
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/quote/random.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/newqotd/QuoteController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/newqotd/Quote.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/newqotd/QuoteService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/newqotd/QuoteController.groovy" />
       </list>
     </option>
   </component>
@@ -232,6 +249,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newqotd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newqotd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newqotd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,12 +591,12 @@
       <workItem from="1417640689630" duration="3197000" />
       <workItem from="1417700581567" duration="1155000" />
       <workItem from="1417702028117" duration="735000" />
-      <workItem from="1417703376225" duration="2602000" />
+      <workItem from="1417703376225" duration="3142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9765000" />
+    <option name="totallyTimeSpent" value="10305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="74" y="0" width="1243" height="1440" extended-state="0" />
@@ -820,7 +859,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.26923" vertical-offset="1141" max-vertical-offset="2176">
           <caret line="92" column="83" selection-start-line="92" selection-start-column="83" selection-end-line="92" selection-end-column="83" />
-          <folding />
+          <folding>
+            <marker date="1417703347338" expanded="true" signature="2347:2473" placeholder="..." />
+            <marker date="1417703347338" expanded="true" signature="3045:3229" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -832,23 +874,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/newqotd/QuoteController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9565217" vertical-offset="0" max-vertical-offset="629">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/newqotd/Quote.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18478261" vertical-offset="0" max-vertical-offset="828">
+        <state vertical-scroll-proportion="-6.652174" vertical-offset="0" max-vertical-offset="306">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/newqotd/QuoteService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#17#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/newqotd/QuoteController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65700483" vertical-offset="0" max-vertical-offset="828">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
