@@ -11,7 +11,7 @@ class QuoteService {
                          content: "Real man no eat Scrapple.")
     }
 
-    def getRandomQuote(){
+    Quote getRandomQuote(){
         def allQuotes = Quote.list()
         def randomQuote = null
         if (allQuotes.size()>0){
