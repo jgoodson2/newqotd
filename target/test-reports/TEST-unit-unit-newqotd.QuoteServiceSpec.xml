@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="258LJ02" name="newqotd.QuoteServiceSpec" tests="1" time="1.252" timestamp="2014-12-04T15:36:57">
-  <properties />
-  <testcase classname="newqotd.QuoteServiceSpec" name="static quote service always returns scrapple quote" time="1.226" />
-  <system-out><![CDATA[--Output from static quote service always returns scrapple quote--
-]]></system-out>
-  <system-err><![CDATA[--Output from static quote service always returns scrapple quote--
-]]></system-err>
-</testsuite>
